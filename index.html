@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Movie-App</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./dist/styles.css">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="">
+    <link rel="shortcut icon" href=""/>
+
+    <meta property="og:title" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="profile">
+</head>
+<body>
+
+<h1 class="center title">Movie Search App</h1>
+<div class="container center search">
+    <div class="input-group searchInput">
+        <input id="searchText" type="text" class="form-control" placeholder="Bulmak istediğiniz filmin adını yazınız"
+               aria-label="Input group example" aria-describedby="btnGroupAddon">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">
+                <img id="searchIcon" class="setImage" src=" /assets/blue-search.png">
+                <img id="arrowIcon" class="setImage" src=" /assets/blue-arrow.png">
+            </div>
+        </div>
+    </div>
+    <div id="auto-complete">
+       <!-- <div class="row">
+            <div class="col-sm">
+                <img id="movieImage" src="">
+            </div>
+            <div id="info" class="col-sm">
+                <p id="title"></p>
+                <p id="rate"></p>
+                <p id="language"></p>
+                <p id="actors"></p>
+                <p id="plot"></p>
+            </div>
+        </div>-->
+        <span id="sonuc">Daha Fazla Sonuç >></span>
+    </div>
+</div>
+
+<script src="./dist/bundle.js"></script>
+</body>
+</html>
